@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-  import { FormGroup, FormArray, FormBuilder } from '@angular/forms'
+import { FormGroup, FormArray, FormBuilder } from '@angular/forms'
 
 
 @Component({
@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
-  
+
   title = 'Nested FormArray Example Add Form Fields Dynamically';
 
   empForm:FormGroup;
@@ -83,4 +83,3 @@ export class country {
     this.name = name;
   }
 }
-
